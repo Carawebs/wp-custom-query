@@ -1,0 +1,18 @@
+{
+    "name": "carawebs/wp-custom-query",
+    "description": "Custom Queries for WordPress. Wrapper for `WP_Query()`.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Egan",
+            "email": "david@carawebs.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Carawebs\\Loop\\": "src"
+        }
+    }
+}
