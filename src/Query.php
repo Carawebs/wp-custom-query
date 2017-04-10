@@ -11,7 +11,7 @@ class Query extends Base
     * @since    1.0.0
     * @var array
     */
-    $args;
+    private $args;
 
     /**
     * Set up the default arguments for WP_Query.
@@ -43,6 +43,7 @@ class Query extends Base
             'posts_per_page' => '-1',
             'order' => 'DESC',
             'orderby' => 'date',
+            'pagination' => false,
         ], $override);
         return $this;
     }
